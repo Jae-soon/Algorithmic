@@ -1,5 +1,12 @@
-meter = list(map(int, input().split()))
+# 시간초과 발생
 
-A = meter[0]
-B = meter[1]
-C = meter[2]
+A, B, C = list(map(int, input().split()))
+count = 1
+
+while True:
+    C = C - A
+    if C <= 0:
+        print(count)
+        break
+    C = C + B
+    count = count + 1

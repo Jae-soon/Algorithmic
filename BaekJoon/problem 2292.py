@@ -1,5 +1,3 @@
-# 반복되는 구간 찾아보기
-
 num = int(input())
 
 start = 1
