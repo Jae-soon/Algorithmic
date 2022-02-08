@@ -1,6 +1,8 @@
-t = int(input())
+import sys
 
-for _ in range(t):  
+T = int(sys.stdin.readline())
+
+for _ in range(T):
     floor = int(input())
     num = int(input())
     f0 = [x for x in range(1, num+1)]
