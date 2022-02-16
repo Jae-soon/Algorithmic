@@ -1,6 +1,3 @@
-from re import I
-
-
 v = int(input())
 i = 2
 while v != 1:
