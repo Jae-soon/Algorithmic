@@ -7,4 +7,4 @@ while True:
         if a[0] ** 2 + a[1] ** 2 == max_num ** 2:
                 print('right')
         else:
-                print('wrong')
+                print('wrong') 
