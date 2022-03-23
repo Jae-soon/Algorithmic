@@ -9,4 +9,4 @@ for num in numbers:
 for remove_num in set(remove_list) :  # set 으로 중복값 제거
     numbers.remove(remove_num)
 for self_num in numbers :  # 생성자가 있는 숫자를 삭제한 리스트
-    print(self_num)
+    print(self_num) 

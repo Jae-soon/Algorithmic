@@ -15,4 +15,4 @@ for t in range(0, int(T)):
             Answer = Answer^num[n]
     print('Case #%d' %(int(t)+1))    
     print(Answer)
-inf.close()
+inf.close() 

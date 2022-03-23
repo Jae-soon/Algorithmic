@@ -16,4 +16,4 @@ if len(sosu_list) > 0 :
     print(sum(sosu_list))
     print(min(sosu_list))
 else:
-    print(-1)
+    print(-1) 

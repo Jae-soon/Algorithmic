@@ -9,4 +9,4 @@ def hanoi_tower(n, start, end) :
     
 n = int(input())
 print(2**n-1)
-hanoi_tower(n, 1, 3)
+hanoi_tower(n, 1, 3) 

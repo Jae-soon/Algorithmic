@@ -16,4 +16,4 @@ for _ in range(T):
             print(A, B)
             break
         A -= 1
-        B += 1
+        B += 1 

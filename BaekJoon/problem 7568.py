@@ -10,4 +10,4 @@ for i in dc_list:
     for j in dc_list:
         if i[0] < j[0] and i[1] < j[1]:
             cnt += 1
-    print(cnt, end=" ")
+    print(cnt, end=" ") 

@@ -10,4 +10,4 @@ while sugar >= 0:
     sugar -= 3
     bag += 1
 else :
-    print(-1)
+    print(-1) 

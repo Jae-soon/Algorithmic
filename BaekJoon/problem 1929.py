@@ -14,4 +14,4 @@ for i in range(M,N+1):
                 arr.append(i)
 
 for i in arr:
-    print(i)
+    print(i) 

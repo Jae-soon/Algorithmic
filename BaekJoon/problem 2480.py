@@ -9,4 +9,4 @@ elif a == c:
 elif b == c:
     print(1000 + b * 100)
 else:
-    print(100 * max(a, b, c))
+    print(100 * max(a, b, c)) 

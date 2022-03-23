@@ -7,4 +7,4 @@ if m + time >= 60:
         h = h - 24
     print(h, ((m + time) % 60))
 else:
-    print(h, m + time)
+    print(h, m + time) 

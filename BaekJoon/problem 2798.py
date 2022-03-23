@@ -10,4 +10,4 @@ for i in range(0, l-2):
             else:
                 ans = max(ans ,num[i] + num[j] + num[k])
 
-print(ans)
+print(ans) 

@@ -9,4 +9,4 @@ for _ in range(T):
         XX = XX - 1
         YY = H
     
-    print(YY * 100 + XX)
+    print(YY * 100 + XX) 

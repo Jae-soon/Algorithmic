@@ -16,4 +16,4 @@ while True:
     val = int(input())
     if val == 0:
         break
-    prime_cnt(val)
+    prime_cnt(val) 

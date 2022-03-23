@@ -9,4 +9,4 @@ for _ in range(C):
         if personal_score > avg:
             cnt += 1
     rate = cnt / score[0] * 100
-    print(f'{rate:.3f}%')
+    print(f'{rate:.3f}%') 

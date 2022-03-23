@@ -12,3 +12,4 @@ for i in range(3):
     if y.count(y[i]) == 1:
         y4 = y[i]
 print(x4, y4)
+  

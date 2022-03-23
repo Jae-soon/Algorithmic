@@ -7,4 +7,4 @@ for i in li:
         for k in word:
             if j == k:
                 time += li.index(i) + 3
-print(time)
+print(time) 

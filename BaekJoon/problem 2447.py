@@ -15,7 +15,7 @@ while n != 3:
     n = int(n / 3)
     k += 1
 
-for i in range(k):
+for i in range(k): 
     stars = get_stars(stars)
 for i in stars:
     print(i)

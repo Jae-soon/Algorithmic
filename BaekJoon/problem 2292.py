@@ -5,4 +5,4 @@ result = 1
 while num > start:
     start += 6 * result
     result += 1
-print(result)
+print(result) 
