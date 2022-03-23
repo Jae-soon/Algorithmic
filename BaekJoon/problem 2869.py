@@ -19,7 +19,7 @@ while True:
 # go = 0
 # cnt = 1
 # count = 1
-
+ 
 # while True:
 #     if go + A < C:
 #         go = (A - B) * count
