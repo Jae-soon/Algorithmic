@@ -13,4 +13,4 @@ for _ in range(T):
         move_plus += move
         if cnt % 2 == 0:
             move += 1
-    print(cnt)
+    print(cnt) 

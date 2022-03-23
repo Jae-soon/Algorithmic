@@ -12,4 +12,4 @@ for _ in range(n):
     elif abs(r1-r2) < distance < (r1+r2):
         print(2)
     else:
-        print(0)
+        print(0) 

@@ -11,4 +11,4 @@ for _ in range(num):
                 error += 1
     if error == 0:
         group_word += 1
-print(group_word)
+print(group_word) 
