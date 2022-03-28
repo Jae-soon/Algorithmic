@@ -20,16 +20,15 @@ for t in range(0, int(T)):
         x, y = map(int, input().split()) # x, y값 입력
         dist = math.sqrt(x*x + y*y) # 다트와 원점 거리
 
-        if dist < A:
+        if dist < A: # Bull일 경우
             sum += 50
+        elif dist > E: # out Board일 경우
+            continue
         else:
-            radian = math.atan2(y, x)
+            radian = math.atan2(y, x) 
             angle = radian * 180 / math.pi
-
-            if y < 0:
-                angle += 360
+            angle += 180
             
-            angle += 9
             angle %= 360
 
             s = score[int(angle/18)]
@@ -45,5 +44,5 @@ for t in range(0, int(T)):
 	
 	# Print the answer to standard output(screen).
     print('Case #%d' %(int(t)+1))    
-    print(Answer)
+    print(sum)
 inf.close()
