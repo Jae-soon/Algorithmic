@@ -6,7 +6,7 @@ t = inf.readline()
 
 for _ in range(int(t)):
     n, k = map(int, input().split())
-    time = list(map(int, inf.readline().split()))
+    time = [0] + list(map(int, inf.readline().split()))
     seq = [[] for _ in range(n+1)]
     inDegree = [0 for _ in range(n+1)]
     dp = [0 for _ in range(n+1)]
