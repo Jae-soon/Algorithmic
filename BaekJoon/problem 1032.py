@@ -11,4 +11,4 @@ for _ in range(int(n) - 1):
         if a[i] != b[i]:
             a[i] = '?'
 
-print(''.join(a))
+print(''.join(a))   
