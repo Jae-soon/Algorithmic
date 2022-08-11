@@ -34,6 +34,5 @@ public class problem4344 {
             double result = count / score_num;
             System.out.printf("%.3f%%\n", result * 100);
         }
-
     }
 }
