@@ -1,4 +1,4 @@
-class main {
+class 문자열압축_main {
     public static void main(String[] args) {
         문자열압축 a = new 문자열압축();
         System.out.println(a.solution("aabbaccc"));
