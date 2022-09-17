@@ -13,7 +13,7 @@ public class problem10250 {
             int h = Integer.parseInt(st.nextToken()); // 층
             int w = Integer.parseInt(st.nextToken()); // 호
             int n = Integer.parseInt(st.nextToken()); // 손님
-            int x = 0; // 층
+            int x = 1; // 층
             int y = 0; // 호
 
             if(n % h == 0) {
