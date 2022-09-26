@@ -1,15 +1,28 @@
 # 시간초과 발생
 
-A, B, C = list(map(int, input().split()))
-count = 1
+import sys
+
+A, B, C = map(int, sys.stdin.readline().split())
+count = 0
+total = 0
 
 while True:
-    C = C - A
-    if C <= 0:
+    total += A # 2 3 4 5
+    count += 1 # 1 
+    if(total >= C):
         print(count)
         break
-    C = C + B
-    count = count + 1
+    total -= B
+    
+        
+
+# while True: #n
+#     C = C - A
+#     if C <= 0:
+#         print(count)
+#         break
+#     C = C + B
+#     count = count + 1
 
 # a = list(map(int, input().split()))
 

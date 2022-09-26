@@ -9,7 +9,7 @@ public class problem1978 {
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-        br.readLine();	// N 은 쓰지 않음.	
+        br.readLine();	// N 은 쓰지 않음.
         int count = 0;
 
         StringTokenizer st = new StringTokenizer(br.readLine()," ");

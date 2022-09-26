@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a67f692b-c1ef-40c5-911e-bbf78643f38d" name="Changes" comment="solve">
-      <change afterPath="$PROJECT_DIR$/Programmers/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Programmers/.idea/Programmers.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Programmers/.idea/discord.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Programmers/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Programmers/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Programmers/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithmic.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaekJoonJava/out/production/BaekJoonJava/problem1712.class" beforeDir="false" afterPath="$PROJECT_DIR$/BaekJoonJava/out/production/BaekJoonJava/problem1712.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaekJoonJava/problem1712.java" beforeDir="false" afterPath="$PROJECT_DIR$/BaekJoonJava/problem1712.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaekJoonJava/problem1978.java" beforeDir="false" afterPath="$PROJECT_DIR$/BaekJoonJava/problem1978.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,7 +12,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Programmers" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -33,7 +28,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/JaeSoon/Documents/GitHub/Algorithmic",
+    "last_opened_file_path": "C:/Users/JaeSoon/Documents/GitHub/Algorithmic/BaekJoonPython",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
@@ -49,6 +44,7 @@
       <option name="presentableId" value="Default" />
       <updated>1661101635975</updated>
       <workItem from="1661101637292" duration="268000" />
+      <workItem from="1664201763301" duration="231000" />
     </task>
     <task id="LOCAL-00001" summary="solve">
       <created>1661101788930</created>

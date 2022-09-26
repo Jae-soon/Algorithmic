@@ -6,18 +6,20 @@ import java.util.StringTokenizer;
 public class problem1712 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-
         StringTokenizer st = new StringTokenizer(br.readLine());
 
-        int A = Integer.parseInt(st.nextToken());
-        int B = Integer.parseInt(st.nextToken());
-        int C = Integer.parseInt(st.nextToken());
+        int a = Integer.parseInt(st.nextToken());
+        int b = Integer.parseInt(st.nextToken());
+        int c = Integer.parseInt(st.nextToken());
 
-        if (C <= B) {
-            System.out.println("-1");
-        }
-        else {
-            System.out.println((A/(C-B))+1);
+        if (b > c) {
+            System.out.println(-1);
+        } else {
+            if(b - c == 0) {
+                System.out.println(-1);
+            } else {
+                System.out.println(a / (c - b) + 1);
+            }
         }
     }
 }
