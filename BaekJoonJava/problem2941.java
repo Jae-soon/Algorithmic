@@ -15,7 +15,7 @@ public class problem2941 {
 
             char ch = str.charAt(i);
 
-            if(ch == 'c' && i < len - 1) {			// 만약 ch 가 c 라면?
+            if(ch == 'c' && i < len - 1) {
                 //만약 ch 다음 문자가 '=' 또는 '-' 이라면?
                 if(str.charAt(i + 1) == '=' || str.charAt(i + 1) == '-') {
                     // i+1 까지가 하나의 문자이므로 다음 문자를 건너 뛰기 위해 1 증가

@@ -9,7 +9,7 @@ public class problem5622 {
 
         String s = br.readLine();
 
-        int count=0;
+        int count = 0;
         int k = s.length();
 
         for(int i = 0 ; i < k ; i++) {
