@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="a67f692b-c1ef-40c5-911e-bbf78643f38d" name="Changes" comment="solve" />
+    <list default="true" id="a67f692b-c1ef-40c5-911e-bbf78643f38d" name="Changes" comment="solve">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +30,10 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/JaeSoon/Documents/GitHub/Algorithmic/BaekJoonPython&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
@@ -44,6 +53,9 @@
       <workItem from="1664238115508" duration="114000" />
       <workItem from="1664971182613" duration="6000" />
       <workItem from="1665053821654" duration="17000" />
+      <workItem from="1665056691870" duration="126000" />
+      <workItem from="1665085511573" duration="600000" />
+      <workItem from="1665115099291" duration="176000" />
     </task>
     <task id="LOCAL-00001" summary="solve">
       <created>1661101788930</created>
