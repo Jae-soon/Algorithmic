@@ -1,21 +1,31 @@
-def prime_cnt(val):
-    cnt = 0
-    for i in range(val + 1, val * 2 + 1):
-        if sieve[i]:
-            cnt += 1
-    print(cnt)
+import sys
 
-N = 123456 * 2 + 1
-sieve = [True] * N
-for i in range(2, int(N**0.5)+1):
-    if sieve[i]:
-        for j in range(2*i, N, i):
-            sieve[j] = False
+def prime(n):
+    if n == 1:
+        return False
+    
+    for i in range(2, int(n ** 0.5) + 1):
+        if n % i == 0:
+            return False
+    return True
+
+problem_list = list(range(2, 123456 * 2))
+memo = list()
+
+for i in problem_list:
+    if prime(i):
+        memo.append(i)
+
+n = sys.stdin.readline();
 
 while True:
-    val = int(input())
-    if val == 0:
+    count = 0
+    if n == 0:
         break
-    prime_cnt(val)  
 
-
+    for i in memo:
+        if n < i <= 2 * n:
+            count += 1
+        
+    print(count)
+    n = sys.stdin.readline()
