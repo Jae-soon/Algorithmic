@@ -1,8 +1,11 @@
 import sys
 
-num = int(sys.stdin.readline())
-sum = 0
+def fibo(n):
+    if n < 2:
+        return n
+    
+    return fibo(n - 1) + fibo(n - 2)
 
-for i in range(num+1):
-    sum += i
-print(sum) 
+n = int(sys.stdin.readline())
+print(fibo(n))
+
