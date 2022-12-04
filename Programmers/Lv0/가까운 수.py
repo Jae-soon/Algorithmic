@@ -5,4 +5,4 @@ def solution(array, n):
         if min > abs(i - n):
             min = abs(i - n)
             answer = i
-    return answer
+    return answe
