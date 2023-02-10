@@ -1,7 +1,7 @@
 from collections import deque
 
 def solution(maps):
-    def dfs(x, y):
+    def bfs(x, y):
         dq = deque()
         dq.append([x, y, 1])
 
@@ -28,4 +28,4 @@ def solution(maps):
 
         return -1
                         
-    return dfs(0, 0)
+    return bfs(0, 0)
